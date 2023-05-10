@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BB.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="announcement-bar">
+        <div class=" announcement "> To cancel your order CANCEL HERE</div>
+        <!-- <div id="announcement-bar1">
+          <div class=" announcement "> To cancel your order CANCEL HERE</div> -->
+      </div>
+    </div>
+      <div>
+        <!-- slider -->
+        <div class="slider">
+          <div class="slide active">
+            <img src="./Images/main_slider_desktops_8cb932f0-e0a7-452d-92b0-61c944eba7a6_1500x.jpg" alt="Slide 1">
+          </div>
+          
+        </div>
+        
+        <!-- The logo in the center -->
+        <img class="logo" src="./Images/baroque-01.svg" alt="Logo">
+        <button class="NEW"> SHOP NOW </button>
+        
+        <!-- The dropdown menu on the left side -->
+        <div class="dropdown" onclick="toggleDropdown()">
+          <img class="drop" src="./images/align-justify-svgrepo-com.svg"> 
+          <div class="dropdown-content">
+  
+           <div class="collection1"> <a href="#">COLLECTIONS</a></div>
+          
+            <div class="collection2" ><a href="#"> UNSTICHED</a> </div>
+            
+            <div class="collection3" ><a href="#"> SHAWALS </a> </div>
+            
+            <div class="collection4" ><a href="#">SPECIAL PRICES</a></div>
+            
+            <div class="collection5" ><a href="#">READY TO WEAR</a> </div>
+              <div   > <img class="collection6" src="./Images/pic.PNG"> </div>
+              <div> <h4  >HELPLINE :  </h4> <img class="collection7" src="./Images/logoo.PNG"> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="whole"> 
+      <div class="card" style="width: 9rem;">
+        <img class="card-img-top3" src="./Images/1ae_e1fc3c32-21d2-4da6-92c9-fc012f0539e0_550x.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title1"> READY TO WEAR </h5>
+          
+          <a href="#" class="class1"> SHOP NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top5" src="./Images/5YR5E_378755ef-3ed1-4b3e-a4e8-0fc330692c3f_550x.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title2"> DUPATTAS</h5>
+          
+          <a href="#" class="class2">SHOP NOW</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top2" src="./Images/7_c1799e08-917e-4386-b877-09c40a27d2f9_550x.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title3">SWISS LAWN</h5>
+          
+          <a href="#" class="class3">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="whole1"> 
+        <div class="card" style="width: 9rem;">
+          <img class="card-img-top4" src="./Images/8_ca38499a-ecbc-4e6d-a33a-4d2d806574a2_550x.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title4"> CHANTELLE </h5>
+            
+            <a href="#" class="class4"> SHOP NOW </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top6" src="./Images/bannerw_4ea7342c-d8de-4f76-807c-704e5f2242be_550x.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title5"> BOTTOMS </h5>
+            
+            <a href="#" class="class5">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top1" src="./Images/bannerbvbb_c7787e6a-30d6-41ee-8fc2-580d1c6a8181_550x.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title6">SPECIAL PRICE</h5>
+            
+            <a href="#" class="class6">SHOP NOW</a>
+          </div>
+        </div>
+      </div> 
+
+    <div class="whole2">
+
+        <div > <img class="style1" src="./Images/Style_guide_2_1500x.jpg" alt="styleguide"> </div>
+        <div>  <img class="style2" src="./Images/secod picture.PNG"></div>
+    </div>
+
+
+    <div>
+         <div class="grey">
+            <h5 class="grish">WHO   WE   ARE | CONTACT   US  |  OUR  RESPONSIBILITY  |  EXCHANGE   &   REFUND |  EXCHANGE   FORM  |  SHIPPING  | LOOK   BOOK  | </h5>
+                
+                
+              <h5 class="grish1"> ORDER   CANCELLATION   FORM  |  TRACK   YOUR   ORDERS  | SERVICE   WE   PROVIDE |  CAREERS  |  LEGAL  |  FAQ'S  |  PRIVACY   &   POLICY  </h5>
+                <div> <img class="helo" src="./Images/logos.baroque.PNG"></div>
+               
+               
+    
+
+    <div id="announcement-bar">
+        <div class="announcement"> All Rights Reserved to Baroque 2023 </div>
+      </div>
+      
+      <div>
+        <div>
+<script> 
+
+let dropdownContent = document.getElementsByClassName('dropdown-content')[0];
+
+// Toggle the dropdown content visibility on click
+function toggleDropdown() {
+  if
+   (dropdownContent.style.display === 'block') {
+    dropdownContent.style.display = 'none'; 
+  } else { 
+    dropdownContent.style.display = 'block';
+  }
+}
+
+const announcementBar = document.getElementById("announcement-bar");
+const announcements = [];
+
+for (let i = 1; i > announcementBar.children.length; i++) {
+  const child = announcementBar.children[i];
+  if (child.classList.contains("announcement")) {
+    announcements.push(child);
+    
+    setTimeout(function() {
+  document.getElementById("announcement-bar").style.display = "none";
+}, 1);
+loop: true;
+  
+  }
+}
+
+
+</script>
+    </body>
+
+</html>

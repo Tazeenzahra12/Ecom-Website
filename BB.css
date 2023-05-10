@@ -1,0 +1,436 @@
+
+#announcement-bar {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    background-color: black;
+    color: white;
+  }
+  
+  .announcement {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    animation: slide 10s infinite;
+  }
+  
+   @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    25% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    75% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-200%);
+    } 
+
+}
+.card-img-top{
+    width: 350px;
+    height: 400px;
+    padding-left: 20px;
+    
+}
+.card-img-top2{
+  position: relative;
+  right: 200px;
+  width: 370px;
+  height: 480px; 
+}
+
+.card-img-top1{
+  position: relative;
+  right: 200px;
+  width: 370px;
+  height: 480px; 
+}
+.card-img-top3{
+  position: relative;
+  left: 200px;
+  width: 370px;
+  height: 480px; 
+}
+.card-img-top4{
+  position: relative;
+  left: 200px;
+  width: 370px;
+  height: 480px; 
+}
+.card-img-top5{
+  position: relative;
+  left: 80px;
+  width: 350px;
+  height: 480px; 
+}
+.card-img-top6{
+  position: relative;
+  left: 80px;
+  width: 350px;
+  height: 480px; 
+}
+
+.card-title1{
+
+  position: relative;
+  left: 300px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class1{
+  position: relative;
+  left: 320px;
+  top: -20px;
+  color: black;
+
+}
+
+.card-title1{
+
+  position: relative;
+  left: 300px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class1{
+  position: relative;
+  left: 320px;
+  top: -20px;
+  color: black;
+
+}
+
+.card-title1{
+
+  position: relative;
+  left: 300px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class1{
+  position: relative;
+  left: 320px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+}
+
+.card-title2{
+
+  position: relative;
+  left: 200px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class2{
+  position: relative;
+  left: 200px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+}
+
+.card-title3{
+
+  position: relative;
+  right: 80px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class3{
+  position: relative;
+  right: 70px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+
+}
+
+.card-title4{
+
+  position: relative;
+  left: 330px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class4{
+  position: relative;
+  left: 335px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+}
+.card-title5{
+
+  position: relative;
+  left: 200px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class5{
+  position: relative;
+  left: 200px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+}
+
+.card-title6{
+
+  position: relative;
+  right: 80px;
+  top: -10px;
+  color: grey;
+  font-size: medium
+}
+.class6{
+  position: relative;
+  right: 65px;
+  top: -20px;
+  color: black;
+  font-weight: 6px;
+}
+
+
+.NEW{
+
+  background-color: black;
+  color: white;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 30px;
+padding-left: 30px;
+position: relative;
+top: -145px;
+left: 700px;
+
+}
+.card{
+    flex-direction: column;
+}
+
+
+
+.whole{
+    display: flex; /* make the container a flexbox */
+    flex-direction: row; /* set the direction to row */
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.whole a:hover{
+  /* background-color: black; */
+  font-weight: bold;
+  
+}
+
+.whole1 a:hover{
+  /* background-color: black; */
+  font-weight: bold;
+  
+  
+}
+.whole2 a:hover{
+  /* background-color: black; */
+  font-weight: bold;
+  
+  
+}
+.whole1{
+    display: flex; /* make the container a flexbox */
+    flex-direction: row; /* set the direction to row */
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.whole2{
+    display: flex; /* make the container a flexbox */
+    flex-direction: row; /* set the direction to row */
+    justify-content: center;
+    overflow: hidden;
+}
+.style1{
+    height: 90%;
+    width: 60%;
+    margin-left: 220px;
+    
+  }
+.style2{
+    width: 110% ;
+    height: 90%;
+    position: relative;
+    right: 180px;
+    /* top: 20px; */
+    margin-bottom: 10px;
+    
+}
+.grey{
+
+      background-color: #f6f6f6;
+      height: 150px;
+      
+      
+     
+}
+.grish{
+    padding-top: 40px;
+    color: grey;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.grish1{
+  padding-top: 2px;
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.helo{
+padding-left: 650px;
+}
+
+.slider {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style the slides and set their position */
+.slider .slide {
+  width: 100%;
+   height: fit-content;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; 
+}
+
+/* Show the active slide */
+.slider .slide.active {
+  opacity: 1;
+
+}
+
+/* Style the logo and set its position */
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ padding-bottom: 550px;
+ padding-top: 20px;
+ width: 12%; 
+}
+
+/* Style the dropdown menu and set its position */
+ .dropdown {
+  position: relative; 
+  bottom: 740px;
+  
+  /* border-radius: 5px;  */
+  padding: 10px; 
+
+
+} 
+.drop{
+  
+   width: 4%;
+ /* padding-top: 50px;  */
+
+}
+.collection1{
+background-color: #f6f6f6;;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 10px;
+margin-bottom: 4px;
+}
+
+.collection2{
+  background-color: #f6f6f6;;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  }
+  .collection3{
+    background-color: #f6f6f6;;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    margin-bottom: 4px;
+    }
+    .collection4{
+      background-color: #f6f6f6;;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 10px;
+      margin-bottom: 4px;
+      }
+      .collection5{
+        background-color: #f6f6f6;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        margin-bottom: 4px;
+        }
+        .collection6{
+          height: 40px;
+          width: 80px;
+        }
+        .collection7{
+          position: relative;
+          top: 10px;
+        }
+       
+
+
+br{
+  height: 1px;
+}
+
+
+/* Hide the dropdown content */
+.dropdown-content {
+   display: none; 
+   background-color: white; 
+   width: 20%;
+   height: 1900px;
+
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
